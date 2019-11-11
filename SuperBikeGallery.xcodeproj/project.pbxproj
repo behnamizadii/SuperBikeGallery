@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A01D0935237A168E002AF51A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01D0934237A168E002AF51A /* AppDelegate.swift */; };
+		A01D0937237A168E002AF51A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01D0936237A168E002AF51A /* SceneDelegate.swift */; };
+		A01D093A237A168E002AF51A /* SuperBikeGallery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A01D0938237A168E002AF51A /* SuperBikeGallery.xcdatamodeld */; };
+		A01D093C237A168E002AF51A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01D093B237A168E002AF51A /* ContentView.swift */; };
+		A01D093E237A168F002AF51A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01D093D237A168F002AF51A /* Assets.xcassets */; };
+		A01D0941237A168F002AF51A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01D0940237A168F002AF51A /* Preview Assets.xcassets */; };
+		A01D0944237A168F002AF51A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01D0942237A168F002AF51A /* LaunchScreen.storyboard */; };
+		A01D094F237A168F002AF51A /* SuperBikeGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01D094E237A168F002AF51A /* SuperBikeGalleryTests.swift */; };
+		A01D095A237A168F002AF51A /* SuperBikeGalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01D0959237A168F002AF51A /* SuperBikeGalleryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A01D094B237A168F002AF51A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A01D0929237A168E002AF51A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A01D0930237A168E002AF51A;
+			remoteInfo = SuperBikeGallery;
+		};
+		A01D0956237A168F002AF51A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A01D0929237A168E002AF51A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A01D0930237A168E002AF51A;
+			remoteInfo = SuperBikeGallery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A01D0931237A168E002AF51A /* SuperBikeGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperBikeGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01D0934237A168E002AF51A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A01D0936237A168E002AF51A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A01D0939237A168E002AF51A /* SuperBikeGallery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuperBikeGallery.xcdatamodel; sourceTree = "<group>"; };
+		A01D093B237A168E002AF51A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A01D093D237A168F002AF51A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A01D0940237A168F002AF51A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A01D0943237A168F002AF51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A01D0945237A168F002AF51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01D094A237A168F002AF51A /* SuperBikeGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperBikeGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01D094E237A168F002AF51A /* SuperBikeGalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperBikeGalleryTests.swift; sourceTree = "<group>"; };
+		A01D0950237A168F002AF51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01D0955237A168F002AF51A /* SuperBikeGalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperBikeGalleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01D0959237A168F002AF51A /* SuperBikeGalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperBikeGalleryUITests.swift; sourceTree = "<group>"; };
+		A01D095B237A168F002AF51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A01D092E237A168E002AF51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01D0947237A168F002AF51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01D0952237A168F002AF51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A01D0928237A168E002AF51A = {
+			isa = PBXGroup;
+			children = (
+				A01D0933237A168E002AF51A /* SuperBikeGallery */,
+				A01D094D237A168F002AF51A /* SuperBikeGalleryTests */,
+				A01D0958237A168F002AF51A /* SuperBikeGalleryUITests */,
+				A01D0932237A168E002AF51A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A01D0932237A168E002AF51A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A01D0931237A168E002AF51A /* SuperBikeGallery.app */,
+				A01D094A237A168F002AF51A /* SuperBikeGalleryTests.xctest */,
+				A01D0955237A168F002AF51A /* SuperBikeGalleryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A01D0933237A168E002AF51A /* SuperBikeGallery */ = {
+			isa = PBXGroup;
+			children = (
+				A01D0934237A168E002AF51A /* AppDelegate.swift */,
+				A01D0936237A168E002AF51A /* SceneDelegate.swift */,
+				A01D093B237A168E002AF51A /* ContentView.swift */,
+				A01D093D237A168F002AF51A /* Assets.xcassets */,
+				A01D0942237A168F002AF51A /* LaunchScreen.storyboard */,
+				A01D0945237A168F002AF51A /* Info.plist */,
+				A01D0938237A168E002AF51A /* SuperBikeGallery.xcdatamodeld */,
+				A01D093F237A168F002AF51A /* Preview Content */,
+			);
+			path = SuperBikeGallery;
+			sourceTree = "<group>";
+		};
+		A01D093F237A168F002AF51A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A01D0940237A168F002AF51A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A01D094D237A168F002AF51A /* SuperBikeGalleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				A01D094E237A168F002AF51A /* SuperBikeGalleryTests.swift */,
+				A01D0950237A168F002AF51A /* Info.plist */,
+			);
+			path = SuperBikeGalleryTests;
+			sourceTree = "<group>";
+		};
+		A01D0958237A168F002AF51A /* SuperBikeGalleryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A01D0959237A168F002AF51A /* SuperBikeGalleryUITests.swift */,
+				A01D095B237A168F002AF51A /* Info.plist */,
+			);
+			path = SuperBikeGalleryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A01D0930237A168E002AF51A /* SuperBikeGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01D095E237A168F002AF51A /* Build configuration list for PBXNativeTarget "SuperBikeGallery" */;
+			buildPhases = (
+				A01D092D237A168E002AF51A /* Sources */,
+				A01D092E237A168E002AF51A /* Frameworks */,
+				A01D092F237A168E002AF51A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperBikeGallery;
+			productName = SuperBikeGallery;
+			productReference = A01D0931237A168E002AF51A /* SuperBikeGallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A01D0949237A168F002AF51A /* SuperBikeGalleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01D0961237A168F002AF51A /* Build configuration list for PBXNativeTarget "SuperBikeGalleryTests" */;
+			buildPhases = (
+				A01D0946237A168F002AF51A /* Sources */,
+				A01D0947237A168F002AF51A /* Frameworks */,
+				A01D0948237A168F002AF51A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A01D094C237A168F002AF51A /* PBXTargetDependency */,
+			);
+			name = SuperBikeGalleryTests;
+			productName = SuperBikeGalleryTests;
+			productReference = A01D094A237A168F002AF51A /* SuperBikeGalleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A01D0954237A168F002AF51A /* SuperBikeGalleryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01D0964237A168F002AF51A /* Build configuration list for PBXNativeTarget "SuperBikeGalleryUITests" */;
+			buildPhases = (
+				A01D0951237A168F002AF51A /* Sources */,
+				A01D0952237A168F002AF51A /* Frameworks */,
+				A01D0953237A168F002AF51A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A01D0957237A168F002AF51A /* PBXTargetDependency */,
+			);
+			name = SuperBikeGalleryUITests;
+			productName = SuperBikeGalleryUITests;
+			productReference = A01D0955237A168F002AF51A /* SuperBikeGalleryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A01D0929237A168E002AF51A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Ben Izadi";
+				TargetAttributes = {
+					A01D0930237A168E002AF51A = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					A01D0949237A168F002AF51A = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = A01D0930237A168E002AF51A;
+					};
+					A01D0954237A168F002AF51A = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = A01D0930237A168E002AF51A;
+					};
+				};
+			};
+			buildConfigurationList = A01D092C237A168E002AF51A /* Build configuration list for PBXProject "SuperBikeGallery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A01D0928237A168E002AF51A;
+			productRefGroup = A01D0932237A168E002AF51A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A01D0930237A168E002AF51A /* SuperBikeGallery */,
+				A01D0949237A168F002AF51A /* SuperBikeGalleryTests */,
+				A01D0954237A168F002AF51A /* SuperBikeGalleryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A01D092F237A168E002AF51A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01D0944237A168F002AF51A /* LaunchScreen.storyboard in Resources */,
+				A01D0941237A168F002AF51A /* Preview Assets.xcassets in Resources */,
+				A01D093E237A168F002AF51A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01D0948237A168F002AF51A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01D0953237A168F002AF51A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A01D092D237A168E002AF51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01D0935237A168E002AF51A /* AppDelegate.swift in Sources */,
+				A01D0937237A168E002AF51A /* SceneDelegate.swift in Sources */,
+				A01D093C237A168E002AF51A /* ContentView.swift in Sources */,
+				A01D093A237A168E002AF51A /* SuperBikeGallery.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01D0946237A168F002AF51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01D094F237A168F002AF51A /* SuperBikeGalleryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01D0951237A168F002AF51A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01D095A237A168F002AF51A /* SuperBikeGalleryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A01D094C237A168F002AF51A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A01D0930237A168E002AF51A /* SuperBikeGallery */;
+			targetProxy = A01D094B237A168F002AF51A /* PBXContainerItemProxy */;
+		};
+		A01D0957237A168F002AF51A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A01D0930237A168E002AF51A /* SuperBikeGallery */;
+			targetProxy = A01D0956237A168F002AF51A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A01D0942237A168F002AF51A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A01D0943237A168F002AF51A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A01D095C237A168F002AF51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A01D095D237A168F002AF51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A01D095F237A168F002AF51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperBikeGallery/Preview Content\"";
+				DEVELOPMENT_TEAM = FTTV5FW6JR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SuperBikeGallery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benzi.SuperBikeGallery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A01D0960237A168F002AF51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperBikeGallery/Preview Content\"";
+				DEVELOPMENT_TEAM = FTTV5FW6JR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SuperBikeGallery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benzi.SuperBikeGallery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A01D0962237A168F002AF51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FTTV5FW6JR;
+				INFOPLIST_FILE = SuperBikeGalleryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benzi.SuperBikeGalleryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperBikeGallery.app/SuperBikeGallery";
+			};
+			name = Debug;
+		};
+		A01D0963237A168F002AF51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FTTV5FW6JR;
+				INFOPLIST_FILE = SuperBikeGalleryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benzi.SuperBikeGalleryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperBikeGallery.app/SuperBikeGallery";
+			};
+			name = Release;
+		};
+		A01D0965237A168F002AF51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FTTV5FW6JR;
+				INFOPLIST_FILE = SuperBikeGalleryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benzi.SuperBikeGalleryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperBikeGallery;
+			};
+			name = Debug;
+		};
+		A01D0966237A168F002AF51A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FTTV5FW6JR;
+				INFOPLIST_FILE = SuperBikeGalleryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.benzi.SuperBikeGalleryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperBikeGallery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A01D092C237A168E002AF51A /* Build configuration list for PBXProject "SuperBikeGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01D095C237A168F002AF51A /* Debug */,
+				A01D095D237A168F002AF51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01D095E237A168F002AF51A /* Build configuration list for PBXNativeTarget "SuperBikeGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01D095F237A168F002AF51A /* Debug */,
+				A01D0960237A168F002AF51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01D0961237A168F002AF51A /* Build configuration list for PBXNativeTarget "SuperBikeGalleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01D0962237A168F002AF51A /* Debug */,
+				A01D0963237A168F002AF51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01D0964237A168F002AF51A /* Build configuration list for PBXNativeTarget "SuperBikeGalleryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01D0965237A168F002AF51A /* Debug */,
+				A01D0966237A168F002AF51A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A01D0938237A168E002AF51A /* SuperBikeGallery.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A01D0939237A168E002AF51A /* SuperBikeGallery.xcdatamodel */,
+			);
+			currentVersion = A01D0939237A168E002AF51A /* SuperBikeGallery.xcdatamodel */;
+			path = SuperBikeGallery.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A01D0929237A168E002AF51A /* Project object */;
+}
